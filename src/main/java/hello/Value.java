@@ -1,5 +1,7 @@
 package hello;
 
+import java.time.LocalDate;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -8,10 +10,19 @@ public class Value {
 
     private Long id;
     private String phrase;
+    private LocalDate date;
 
     public Value() {
     }
 
+    public LocalDate getDate() {
+    	return null;
+    }
+    
+    public void setDate() {
+    	
+    }
+    
     public Long getId() {
         return this.id;
     }

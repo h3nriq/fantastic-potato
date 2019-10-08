@@ -11,4 +11,12 @@ public class QuoteController {
 		
 		return "quoteDetails";
 	}
+
+	@GetMapping("/user")
+	public String showUser(){
+
+		return "userDetails"
+	}
+
+
 }
